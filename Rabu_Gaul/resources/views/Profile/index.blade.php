@@ -80,9 +80,36 @@
             <h2>Sertifikat</h2>
             <div class="sert-grid">
                 <div class="sert-card">
-                    <div class="sert-sheet"><!-- immg src --></div>
+                    <div class="sert-sheet"><img src="{{ asset('sertif/sertif-dataScience-dicoding.png') }}" alt="Sertifikat Data Science"></div>
                     <div class="sert-info">
-                        <h3>Selesai Belajar Data Analyst</h3>
+                        <h3>Selesai Belajar Data Science</h3>
+                        <p>Dicoding Indonesia - 2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sert-grid">
+                <div class="sert-card">
+                    <div class="sert-sheet"><img src="{{ asset('sertif/sertif-python-dicoding.png') }}" alt="Sertifikat Python Learning"></div>
+                    <div class="sert-info">
+                        <h3>Python Learning</h3>
+                        <p>Dicoding Inndonesia - 2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sert-grid">
+                <div class="sert-card">
+                    <div class="sert-sheet"><img src="{{ asset('sertif/setif-SQL-dicoding.png') }}" alt="Sertifikat SQL"></div>
+                    <div class="sert-info">
+                        <h3>Belajar Dasar Structured Query Language (SQL)</h3>
+                        <p>Dicoding Indonesia - 2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sert-grid">
+                <div class="sert-card">
+                    <div class="sert-sheet"><img src="{{ asset('sertif/sertif-financialLiterasi-dicoding.png') }}" alt="Sertifikat Financial Literacy"></div>
+                    <div class="sert-info">
+                        <h3>Introduction to Financial Literacy</h3>
                         <p>Dicoding Indonesia - 2026</p>
                     </div>
                 </div>
@@ -91,8 +118,8 @@
                 <div class="sert-card">
                     <div class="sert-sheet"></div>
                     <div class="sert-info">
-                        <h3>Python Learning</h3>
-                        <p>Dicoding Inndonesia - 2026</p>
+                        <h3>Belajar Membuat Aplikasi Web dengan Laravel</h3>
+                        <p>Free Code Camp - 2025</p>
                     </div>
                 </div>
             </div>
