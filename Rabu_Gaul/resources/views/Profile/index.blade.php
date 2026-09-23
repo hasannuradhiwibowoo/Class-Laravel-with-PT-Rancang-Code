@@ -51,13 +51,13 @@
                 <div class="os-card"><img src="{{ asset('logo-os/logo-fedora.webp') }}" alt="Fedora"><span>Fedora</span></div>
                 <div class="os-card"><img src="{{ asset('logo-os/logo-arch.png') }}" alt="Arch"><span>Arch Linux</span></div>
             </div>
-            <h3>Framework/Libary</h3>
+            <h3>Framework/Library</h3>
             <div class="fm-grid">
-                <div class="fm-card">Laravel</div>
-                <div class="fm-card">Flutter</div>
-                <div class="fm-card">React.js</div>
-                <div class="fm-card">Node.js</div>
-                <div class="fm-card">Tailwind CSS</div>
+                <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/Laravel-Logo.png') }}" alt="Laravel"><span>Laravel</span></div>
+                <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-flutter.png') }}" alt="Flutter"><span>Flutter</span></div>
+                <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-react.webp') }}" alt="React.js"><span>React.js</span></div>
+                <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-node.webp') }}" alt="Node.js"><span>Node.js</span></div>
+                <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-tailwind.webp') }}" alt="Tailwind CSS"><span>Tailwind CSS</span></div>
             </div>
             <h3>Databases</h3>
             <div class="db-grid">
