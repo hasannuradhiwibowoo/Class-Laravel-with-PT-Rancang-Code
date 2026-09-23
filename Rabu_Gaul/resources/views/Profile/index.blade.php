@@ -61,9 +61,9 @@
             </div>
             <h3>Databases</h3>
             <div class="db-grid">
-                <div class="db-card">MySQL</div>
-                <div class="db-card">SQLite</div>
-                <div class="db-card">SawitDB</div>
+                <div class="db-card"><img src="{{ asset('logo-databse/logo-mysql.webp') }}" alt="MySQL"><span>MySQL</span></div>
+                <div class="db-card"><img src="{{ asset('logo-databse/logo-sqlite.png') }}" alt="SQLite"><span>SQLite</span></div>
+                <div class="db-card"><img src="{{ asset('logo-databse/logo-sawitdb.png') }}" alt="SawitDB"><span>SawitDB</span></div>
             </div>
             <h3>Tools</h3>
             <div class="tool-grid">
