@@ -27,7 +27,7 @@
                 <h2>Tentang Saya</h2>
                 <p>Saya adalah siswa Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan pada teknologi dan pemrograman. Saya suka mengeksplorasi hal-hal baru, mencari ide, melakukan riset, serta memberikan saran untuk menemukan cara yang lebih baik dalam menyelesaikan suatu masalah. Saya juga senang mengembangkan ide menjadi sebuah proyek atau solusi digital yang bermanfaat. Melalui berbagai proses belajar dan proyek yang saya kerjakan, saya terus berusaha mengembangkan kemampuan dan mendapatkan pengalaman baru di dunia teknologi.</p>
             </div>
-            <div class="about-photo"></div>
+            <div class="about-photo"><img src="{{ asset('sertif/sucipto-my-little-hiu.jpeg') }}" alt="Foto Hasan NAW"></div>
         </section>
         <section id="skill">
             <h2>Kemampuan</h2>
@@ -86,17 +86,13 @@
                         <p>Dicoding Indonesia - 2026</p>
                     </div>
                 </div>
-            </div>
-            <div class="sert-grid">
                 <div class="sert-card">
                     <div class="sert-sheet"><img src="{{ asset('sertif/sertif-python-dicoding.png') }}" alt="Sertifikat Python Learning"></div>
                     <div class="sert-info">
                         <h3>Python Learning</h3>
-                        <p>Dicoding Inndonesia - 2026</p>
+                        <p>Dicoding Indonesia - 2026</p>
                     </div>
                 </div>
-            </div>
-            <div class="sert-grid">
                 <div class="sert-card">
                     <div class="sert-sheet"><img src="{{ asset('sertif/setif-SQL-dicoding.png') }}" alt="Sertifikat SQL"></div>
                     <div class="sert-info">
@@ -104,8 +100,6 @@
                         <p>Dicoding Indonesia - 2026</p>
                     </div>
                 </div>
-            </div>
-            <div class="sert-grid">
                 <div class="sert-card">
                     <div class="sert-sheet"><img src="{{ asset('sertif/sertif-financialLiterasi-dicoding.png') }}" alt="Sertifikat Financial Literacy"></div>
                     <div class="sert-info">
@@ -113,12 +107,10 @@
                         <p>Dicoding Indonesia - 2026</p>
                     </div>
                 </div>
-            </div>
-            <div class="sert-grid">
                 <div class="sert-card">
-                    <div class="sert-sheet"></div>
+                    <div class="sert-sheet"><img src="{{ asset('sertif/free-code-camp.png') }}" alt="Sertifikat Foundational C# with Microsoft"></div>
                     <div class="sert-info">
-                        <h3>Belajar Membuat Aplikasi Web dengan Laravel</h3>
+                        <h3>Foundational C# with Microsoft</h3>
                         <p>Free Code Camp - 2025</p>
                     </div>
                 </div>
