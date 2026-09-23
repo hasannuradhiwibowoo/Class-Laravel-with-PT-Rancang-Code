@@ -56,24 +56,24 @@
                 <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/Laravel-Logo.png') }}" alt="Laravel"><span>Laravel</span></div>
                 <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-flutter.png') }}" alt="Flutter"><span>Flutter</span></div>
                 <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-react.webp') }}" alt="React.js"><span>React.js</span></div>
-                <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-node.webp') }}" alt="Node.js"><span>Node.js</span></div>
+                <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-node.png') }}" alt="Node.js"><span>Node.js</span></div>
                 <div class="fm-card"><img src="{{ asset('css/logo-Libary-Framework/logo-tailwind.webp') }}" alt="Tailwind CSS"><span>Tailwind CSS</span></div>
             </div>
             <h3>Databases</h3>
             <div class="db-grid">
-                <div class="db-card"><img src="{{ asset('logo-databse/logo-mysql.webp') }}" alt="MySQL"><span>MySQL</span></div>
+                <div class="db-card"><img src="{{ asset('logo-databse/logo-mysql.png') }}" alt="MySQL"><span>MySQL</span></div>
                 <div class="db-card"><img src="{{ asset('logo-databse/logo-sqlite.png') }}" alt="SQLite"><span>SQLite</span></div>
                 <div class="db-card"><img src="{{ asset('logo-databse/logo-sawitdb.png') }}" alt="SawitDB"><span>SawitDB</span></div>
             </div>
             <h3>Tools</h3>
             <div class="tool-grid">
-                <div class="tool-card">VS Code</div>
-                <div class="tool-card">Antigravity</div>
-                <div class="tool-card">git</div>
-                <div class="tool-card">Github</div>
-                <div class="tool-card">Android Studio</div>
-                <div class="tool-card">XAMPP</div>
-                <div class="tool-card">Laragon</div>
+                <div class="tool-card"><img src="{{ asset('logo-tool/logo-vsc.png') }}" alt="VS Code"><span>VS Code</span></div>
+                <div class="tool-card"><img src="{{ asset('logo-tool/logo-antigravity.png') }}" alt="Antigravity"><span>Antigravity</span></div>
+                <div class="tool-card"><img src="{{ asset('logo-tool/logo-git.png') }}" alt="Git"><span>Git</span></div>
+                <div class="tool-card"><img src="{{ asset('logo-tool/logo-githhub.png') }}" alt="GitHub"><span>GitHub</span></div>
+                <div class="tool-card"><img src="{{ asset('logo-tool/-logo-androidst.webp') }}" alt="Android Studio"><span>Android Studio</span></div>
+                <div class="tool-card"><img src="{{ asset('logo-tool/logo-xampp.png') }}" alt="XAMPP"><span>XAMPP</span></div>
+                <div class="tool-card"><img src="{{ asset('logo-tool/lgo-laragon.png') }}" alt="Laragon"><span>Laragon</span></div>
             </div>
         </section>
         <section id="sertifikat">
@@ -119,11 +119,10 @@
         <section id="project">
             <h2>Projek</h2>
             <div class="project-grid">
-                <div class="project-card">
-                    <div class="project-tampilan"></div>
-                    <div class="project-inpo">
-                        <h3>Aplikasi sistem UKS yang berbasis Windows Forms App</h3>
-                        <p>Aplikasi ini dugnakan oleh pengelola uks untuk mendata jumlah pasien dan jumlah data apaun yang ada di dalam uks dengan mudah dan rapi.</p>
+                <div class="sert-card">
+                    <div class="sert-info">
+                        <h3>Aplikasi sistem UKS berbasis Windows Forms App</h3>
+                        <p>Aplikasi ini digunakan oleh pengelola UKS untuk mendata jumlah pasien dan data dengan mudah dan rapi.</p>
                     </div>
                 </div>
             </div>
