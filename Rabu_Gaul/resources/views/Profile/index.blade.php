@@ -120,9 +120,17 @@
             <h2>Projek</h2>
             <div class="project-grid">
                 <div class="sert-card">
+                    <div class="sert-sheet"><img src="{{ asset('projek/projek-uks.png') }}" alt="Aplikasi UKS"></div>
                     <div class="sert-info">
-                        <h3>Aplikasi sistem UKS berbasis Windows Forms App</h3>
+                        <h3>Aplikasi Sistem UKS Berbasis Windows Forms App</h3>
                         <p>Aplikasi ini digunakan oleh pengelola UKS untuk mendata jumlah pasien dan data dengan mudah dan rapi.</p>
+                    </div>
+                </div>
+                <div class="sert-card">
+                    <div class="sert-sheet"><img src="{{ asset('projek/projek-web-organisasi.png') }}" alt="Website MPK SMKN 1 Bantul"></div>
+                    <div class="sert-info">
+                        <h3>Website MPK SMKN 1 Bantul</h3>
+                        <p>Website resmi Majelis Perwakilan Kelas (MPK) SMKN 1 Bantul yang dibangun khusus untuk menampung informasi organisasi, kegiatan, pengumuman, dan profil pengurus. Dibuat menggunakan HTML, CSS, dan JavaScript murni tanpa framework, sehingga ringan, cepat, dan mudah di-maintain.</p>
                     </div>
                 </div>
             </div>
