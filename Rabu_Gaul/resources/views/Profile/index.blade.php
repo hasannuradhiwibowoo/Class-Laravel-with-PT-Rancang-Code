@@ -33,23 +33,23 @@
             <h2>Kemampuan</h2>
             <h3>Bahasa Pemrograman</h3>
             <div class="skill-grid">
-                <div class="skill-card">HTML</div>
-                <div class="skill-card">Java</div>
-                <div class="skill-card">Python</div>
-                <div class="skill-card">PHP</div>
-                <div class="skill-card">C#</div>
-                <div class="skill-card">Kotlin</div>
-                <div class="skill-card">Shell</div>
-                <div class="skill-card">Dart</div>
-                <div class="skill-card">VB.NET</div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-html.png') }}" alt="HTML"><span>HTML</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-javaskrip.png') }}" alt="Java"><span>Java</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-piton.png') }}" alt="Python"><span>Python</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-php.webp') }}" alt="PHP"><span>PHP</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-C%23.webp') }}" alt="C#"><span>C#</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-kotlin.png') }}" alt="Kotlin"><span>Kotlin</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-shell.png') }}" alt="Shell"><span>Shell</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-dart.png') }}" alt="Dart"><span>Dart</span></div>
+                <div class="skill-card"><img src="{{ asset('logo-skill/logo-vb.webp') }}" alt="VB.NET"><span>VB.NET</span></div>
             </div>
-            <h3>Operation Sistem</h3>
+            <h3>Sistem Operasi</h3>
             <div class="os-grid">
-                <div class="os-card">Windows</div>
-                <div class="os-card">Ubuntu</div>
-                <div class="os-card">Zorin</div>
-                <div class="os-card">Fedora</div>
-                <div class="os-card">Arch</div>
+                <div class="os-card"><img src="{{ asset('logo-os/Logo_Windows_11.webp') }}" alt="Windows"><span>Windows</span></div>
+                <div class="os-card"><img src="{{ asset('logo-os/logo-ubuntu.webp') }}" alt="Ubuntu"><span>Ubuntu</span></div>
+                <div class="os-card"><img src="{{ asset('logo-os/logo-zorin.png') }}" alt="Zorin"><span>Zorin OS</span></div>
+                <div class="os-card"><img src="{{ asset('logo-os/logo-fedora.webp') }}" alt="Fedora"><span>Fedora</span></div>
+                <div class="os-card"><img src="{{ asset('logo-os/logo-arch.png') }}" alt="Arch"><span>Arch Linux</span></div>
             </div>
             <h3>Framework/Libary</h3>
             <div class="fm-grid">

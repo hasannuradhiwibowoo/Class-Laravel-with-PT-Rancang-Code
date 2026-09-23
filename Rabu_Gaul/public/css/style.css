@@ -200,8 +200,22 @@ h3 {
 
     font-size: 1.2rem;
 }
-.skill-grid,
-.os-grid,
+.skill-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 18px;
+}
+.os-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+
+    gap: 18px;
+}
 .fm-grid,
 .db-grid,
 .tool-grid {
@@ -213,7 +227,34 @@ h3 {
     gap: 18px;
 }
 .skill-card,
-.os-card,
+.os-card {
+    padding: 28px 20px;
+
+    background: var(--card);
+
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+
+    color: var(--text);
+
+    text-align: center;
+    font-weight: 600;
+
+    box-shadow:
+        0 6px 18px var(--shadow-dark);
+
+    transition:
+        transform var(--transition),
+        border-color var(--transition),
+        color var(--transition),
+        background var(--transition);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 .fm-card,
 .db-card,
 .tool-card {
@@ -237,6 +278,21 @@ h3 {
         border-color var(--transition),
         color var(--transition),
         background var(--transition);
+}
+
+.skill-card img,
+.os-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    display: block;
+}
+
+.skill-card span,
+.os-card span {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text);
 }
 
 .skill-card:hover,
